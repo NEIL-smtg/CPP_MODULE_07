@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Array.tpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: suchua < suchua@student.42kl.edu.my>       +#+  +:+       +#+        */
+/*   By: suchua <suchua@student.42kl.edu.my>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/24 21:11:28 by suchua            #+#    #+#             */
-/*   Updated: 2023/08/24 22:52:55 by suchua           ###   ########.fr       */
+/*   Updated: 2023/08/26 16:59:45 by suchua           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ Array<T>::~Array()
 	if (this->arr)
 		delete[] this->arr;
 }
-
 
 template<class T>
 Array<T>::Array(Array<T>& other)
